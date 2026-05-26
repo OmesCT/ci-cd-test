@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chinnawat.t/workspace/ci/cd pipeline_test/csharp-app/csharp-app.csproj": {}
+    "/Users/chinnawat.t/workspace/ci/csharp-app/csharp-app.csproj": {}
   },
   "projects": {
-    "/Users/chinnawat.t/workspace/ci/cd pipeline_test/csharp-app/csharp-app.csproj": {
+    "/Users/chinnawat.t/workspace/ci/csharp-app/csharp-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chinnawat.t/workspace/ci/cd pipeline_test/csharp-app/csharp-app.csproj",
+        "projectUniqueName": "/Users/chinnawat.t/workspace/ci/csharp-app/csharp-app.csproj",
         "projectName": "csharp-app",
-        "projectPath": "/Users/chinnawat.t/workspace/ci/cd pipeline_test/csharp-app/csharp-app.csproj",
+        "projectPath": "/Users/chinnawat.t/workspace/ci/csharp-app/csharp-app.csproj",
         "packagesPath": "/Users/chinnawat.t/.nuget/packages/",
-        "outputPath": "/Users/chinnawat.t/workspace/ci/cd pipeline_test/csharp-app/obj/",
+        "outputPath": "/Users/chinnawat.t/workspace/ci/csharp-app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chinnawat.t/.nuget/NuGet/NuGet.Config"

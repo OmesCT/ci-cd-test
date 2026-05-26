@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gD4cYJdp7C8=",
+  "dgSpecHash": "R5EUrNlOhHM=",
   "success": true,
-  "projectFilePath": "/Users/chinnawat.t/workspace/ci/cd pipeline_test/csharp-app/csharp-app.csproj",
+  "projectFilePath": "/Users/chinnawat.t/workspace/ci/csharp-app/csharp-app.csproj",
   "expectedPackageFiles": [
     "/Users/chinnawat.t/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "/Users/chinnawat.t/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
