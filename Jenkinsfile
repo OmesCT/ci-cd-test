@@ -13,7 +13,9 @@ pipeline {
                 script {
                     echo 'Building Docker Image...'
                     // สั่ง build image ชื่อ ci-cd-test:latest
+                    sh 'printenv | grep -i path'
                     sh 'docker build -t ci-cd-test:latest .'
+                    
                 }
             }
         }
