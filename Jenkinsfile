@@ -1,11 +1,26 @@
-
 pipeline {
     agent any 
+
     stages {
-        stage('Test') {
+        stage('Checkout') {
             steps {
-                echo 'Hello GitHub! Jenkins is working.'
-                sh 'docker ps'
+                // ดึงโค้ดล่าสุดจาก GitHub
+                checkout scm
+            }
+        }
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    echo 'Building Docker Image...'
+                    // สั่ง build image ชื่อ ci-cd-test:latest
+                    sh 'docker build -t ci-cd-test:latest .'
+                }
+            }
+        }
+        stage('Verify') {
+            steps {
+                echo 'Verifying Image...'
+                sh 'docker images | grep ci-cd-test'
             }
         }
     }
