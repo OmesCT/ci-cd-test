@@ -1,5 +1,8 @@
+
 FROM node:18-alpine
-WORKDIR /app
+#กำหนดโฟคเดอร์ที่ app
+WORKDIR /app 
+#การก็อปไฟล์จากเครื่องเราไป containner
 COPY . .
 # รัน npm install ถ้ามี package.json ไม่งั้นให้ข้ามไป
 RUN if [ -f package.json ]; then npm install; fi
